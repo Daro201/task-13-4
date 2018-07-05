@@ -14,5 +14,5 @@ function getTime() {
         console.log((hours + 'godz. ' + (minute - 60 * hours) + 'min. ' + sec + 'sek.'))
     }
 }
-/*(hours + 'godz. ' + (minute - 60 * hours) + 'min. ' + sec + 'sek.')*/
+
 exports.print = getTime;
